@@ -1,0 +1,63 @@
+.content {
+    .login {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: #3498db;
+        margin: 0;
+        padding: 0;
+        height: 97vh;
+        border-radius: 30px;
+    }
+
+    #log {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        width: 200px;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .details {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        background-color: aliceblue;
+        gap: 6px;
+        border-radius: 30px;
+
+        .input {
+            border: none;
+            outline: none;
+            background-color: #f0f0f0;
+        }
+
+        .input:hover {
+            border-radius: 2px;
+            outline: rgb(89, 89, 149);
+        }
+    }
+
+    .submit {
+        padding: 5px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+
+        button {
+            padding: 12px;
+            border-radius: 30px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
